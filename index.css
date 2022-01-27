@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*gereksiz buyumeler olmuyor paddingleri dahil ediyor ekrana*/
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+body{
+    width: 100%; /* butun alani kullanmak icin browserin gosterdigi*/
+    overflow-x: scroll;
+}
+
+.header{
+    padding: 15px 15px 0 15px;
+    cursor: pointer;
+}
+
+.header-left{
+    float: left;
+    margin: 0.5rem;
+}
+.header-right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul a{
+    color: black;
+    opacity: 0.8;
+    padding: 0.5rem;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+.header-right-appicon{
+    vertical-align: middle;
+    opacity: 0.7;
+}
+.header-right-appicon:hover{
+    opacity: 1;
+}
+
+.header-right-button{
+    background-color: #4285f4;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.header-right-button:hover{
+    box-shadow: rgb(211, 211, 211) 3px 3px 5px 0;
+}
+
+.main-logo{
+    width: 272px;
+    height: 95px;
+    margin: 200px auto 0;
+    display: block;
+
+}
+.main-searchbar{
+    width: 460px;
+    height: 38px;
+    border: 1px solid #D3D3D3;
+    border-radius: 25px;
+    margin: 28px auto;
+
+}
+.main-searchbar:hover{
+    box-shadow: rgb(211, 211, 211) 3px 3px 5px 0;
+}
+
+.main-searchbar-magnifier{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.main-searchbar-input{
+    width: 380px;
+    height: 28px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.main-searchbar-mic{
+    width: 15px;
+    height: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+
+}
+
+.main-buttons{
+    text-align: center;
+    
+}
+
+.main-button-left,
+.main-button-right{
+    height: 36px;
+    border: none;
+    background-color: #efefef;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin: 11px 4px;
+
+}
+.main-button-left:hover,
+.main-button-right:hover{
+    border: 1px solid #D3D3D3;
+    cursor: pointer;
+}
+
+.main-language{
+    text-align: center;
+}
+.main-language a{
+    color: #000080;
+}
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    background-color: #f2f2f2;
+    line-height: 30px;
+    width: 100%;
+    color: #5f6368;
+}
+.footer-country{
+    padding-left: 18px;
+    font-size: 14px;
+}
+
+.footer-bottoms{
+    border-top: 1px solid #dadce0;
+}
+.footer-bottoms-left{
+    float: left;
+    padding-left: 18px;
+    
+}
+.footer-bottoms-right{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
